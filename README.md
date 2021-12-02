@@ -1,3 +1,2 @@
-# odin-landing-page
-# odin-landing-page
-# odin-landing-page
+Creating landing page for hypothetical Kiln Webapp as part of Odin Project Fundamentals course.
+
