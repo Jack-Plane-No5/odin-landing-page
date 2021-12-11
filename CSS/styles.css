@@ -1,10 +1,10 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     margin: 0px;
     padding:0px;
 }
 
-header, .first_section {
+header, .first_section, footer {
     background-color: #1F2937;
     border-color: #1F2937;
     padding-left: 30px;
@@ -14,18 +14,18 @@ header, .first_section {
 header {
     display: flex;
     justify-content:center;
-    gap: 400px;
+    gap: 460px;
     align-items: center;
     padding-bottom: 80px;
     padding-top: 20px;
 }
 
-ul, .secondary_txt {
+ul, .secondary_txt, footer, .cta_text p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.logo {
+.logo, .cta_text h5 {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -51,6 +51,7 @@ ul {
 .first_section_textblock{
     flex: .75;
     align-items: baseline;
+    max-width: 500px;
 }
 
 h1 {
@@ -62,11 +63,17 @@ h1 {
 button {
     background-color: #3882F6;
     border-radius: 10px;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 30px 5px 30px;
     border-style: none;
     margin-top: 10px;
     font-weight: bold;
     color: #E5E7EB;
+}
+
+.btnCallToActionSignUp {
+    border-color: #F9FAF8;
+    border-style: solid;
+    height: 40px;
 }
 
 .fire_pic {
@@ -79,6 +86,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 h2 {
@@ -91,10 +99,68 @@ h2 {
     gap: 40px;
 }
 
+.pic_and_caption {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    max-width: 120px;
+}
+
+.second_section p {
+    text-align: center;
+}
+
 .inset {
     border-style: solid;
     border-color: #3882F6;
     border-radius: 10px;
     width: 120px;
     height: 120px;
+}
+
+.third_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 750px;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+    padding-left: 400px;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    width: 800px;
+    padding: 30px;
+    margin: 80px auto 80px auto;
+    border-radius: 10px;
+    gap: 80px;
+   
+}
+
+.cta_text {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
 }
