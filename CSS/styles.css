@@ -43,7 +43,7 @@ ul {
     padding-bottom: 80px;
 }
 
-.first_section_textblock, .first_section_image {
+.first_section_textblock, .first_section_image, .cta_text {
     display: flex;
     flex-direction: column;
 }
@@ -77,7 +77,6 @@ button {
 }
 
 .fire_pic {
-    
     height: 250px;
     width: auto;
 }
@@ -125,7 +124,6 @@ h2 {
     background-color: #E5E7EB;
     padding-top: 80px;
     padding-bottom: 80px;
-
 }
 
 .quote {
@@ -134,7 +132,6 @@ h2 {
     max-width: 750px;
     font-style: italic;
     color: #1F2937;
-    
 }
 
 .author {
@@ -152,12 +149,6 @@ h2 {
     margin: 80px auto 80px auto;
     border-radius: 10px;
     gap: 80px;
-   
-}
-
-.cta_text {
-    display: flex;
-    flex-direction: column;
 }
 
 footer {
